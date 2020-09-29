@@ -1,4 +1,20 @@
 let Roll = 0
+input.onButtonPressed(Button.A, function () {
+    Roll = randint(1, 6)
+    if (Roll == 1) {
+        basic.showString("Eat a Klondike bar")
+    } else if (Roll == 2) {
+        basic.showString("Drink a gallon of toilet water")
+    } else if (Roll == 3) {
+        basic.showString("Jump out of an airplane without a parachute")
+    } else if (Roll == 4) {
+        basic.showString("Get a winning lottery ticket")
+    } else if (Roll == 5) {
+        basic.showString("Burn your dominant hand")
+    } else {
+        basic.showString("Eat mcdonalds")
+    }
+})
 input.onButtonPressed(Button.B, function () {
     Roll = randint(1, 6)
     if (Roll == 1) {
