@@ -18,7 +18,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     Roll = randint(1, 6)
     if (Roll == 1) {
-        basic.showString("WOULD YOU RATHER CUT YOUR LEGS OFF OR TWO OF YOUR FRIENDS LRGS OFF")
+        basic.showString("How long do you sleep for everyday")
     } else if (Roll == 2) {
         basic.showString("WOULD YOU RATHER FREEZE TO DEATH OVER TWO DAYS OR SLOW COOK AT AN OPEN FIRE")
     } else if (Roll == 3) {
@@ -28,6 +28,6 @@ input.onButtonPressed(Button.B, function () {
     } else if (Roll == 5) {
         basic.showString("WOULD YOU RATHER SAVE YOUR MOTHER OR FATHER FROM FALLING OFF A CLIFF TO THEIR DEATH")
     } else {
-        basic.showString("WOULD YOU RATHER SUFFOCATE OR EXPLODE")
+        basic.showString("What is the worst thing you have done")
     }
 })
